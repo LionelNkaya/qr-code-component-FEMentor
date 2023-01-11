@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
   }
 
@@ -16,9 +16,6 @@ body {
     border: solid black ;
     background-color: hsl(220, 15%, 55%);
     min-height:100vh; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
 }
 
 .main {     
@@ -28,21 +25,40 @@ body {
     background-color: white;
     border-radius: 40px;
     overflow: hidden; 
-    display: inline-block;   
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;  
   }
 
  .topArea {
-    display: inline;
+  border: solid black; 
  } 
 
+div >  img {
+  flex: 0;
+  width: 150px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: solid black;
+}
+
  .bottomArea {
-    display: inline;
+    border: solid black;
  }
 
- img {
-    width: 100px;
-    height: 200px;
-  }
+ .bottomTitle {
+  border: solid green;
+  text-align: center;
+ }
+
+ .bottomText {
+  border: solid blue;
+  text-align: center;
+ }
+
+ 
 
  p {
     font-size: 15px;
