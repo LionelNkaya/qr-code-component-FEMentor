@@ -27,8 +27,8 @@ body {
     overflow: hidden; 
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center;  
+    align-items: center;
+    justify-content: center; 
   }
 
  .topArea {
@@ -60,7 +60,7 @@ div >  img {
 
  
 
- p {
+ div > p {
     font-size: 15px;
     color: hsl(220, 15%, 55%) ;
  } 
